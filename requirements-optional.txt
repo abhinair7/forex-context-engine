@@ -1,0 +1,11 @@
+# Install only the extras you actually use.
+# pip install -r requirements-optional.txt   # installs all three
+
+# PostgresStateRepository
+psycopg[binary]>=3.1
+
+# AnthropicClient (Claude + Extended Thinking)
+anthropic>=0.40
+
+# OpenAIClient (GPT-4o, GPT-4.1, ...)
+openai>=1.40

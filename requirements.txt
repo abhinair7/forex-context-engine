@@ -1,7 +1,2 @@
+# Core runtime — required for every usage.
 pydantic>=2.6
-# Optional — only required if you use PostgresStateRepository:
-psycopg[binary]>=3.1
-# Optional — only required if you use AnthropicClient:
-anthropic>=0.40
-# Optional — only required if you use OpenAIClient:
-openai>=1.40
